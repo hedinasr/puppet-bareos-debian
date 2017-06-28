@@ -1,0 +1,8 @@
+fixtures:
+  symlinks:
+    bareos: "#{source_dir}"
+  repositories:
+  forge_modules:
+    stdlib: "puppetlabs-stdlib"
+    mysql: "puppetlabs-mysql"
+    apt: "puppetlabs-apt"
