@@ -35,6 +35,5 @@
 #
 class bareos {
 
-  include apt
-  include bareos::install
+  class { 'bareos::install': } -> class { 'bareos::service': }
 }
