@@ -13,6 +13,8 @@ RSpec.configure do |c|
       copy_module_to(host, :source => proj_root, :module_name => 'bareos')
       on host, puppet('module', 'install', 'puppetlabs-stdlib'), {:acceptable_exit_codes => [0]}
       on host, puppet('module', 'install', 'puppetlabs-apt'), {:acceptable_exit_codes => [0]}
+      on host, puppet('module', 'install', 'puppetlabs-mysql'), {:acceptable_exit_codes => [0]}
+      on host, puppet('module', 'install', 'puppet-staging'), {:acceptable_exit_codes => [0]}
     end
   end
 end
