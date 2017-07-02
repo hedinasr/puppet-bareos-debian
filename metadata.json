@@ -1,12 +1,12 @@
 {
-    "name": "dunes/bareos",
+    "name": "dunes-bareos",
     "version": "0.1.0",
     "author": "Hedi Nasr",
     "summary": "Bareos Puppet module",
     "license": "MIT",
-    "source": "",
-    "project_page": null,
-    "issues_url": null,
+    "source": "https://github.com/Ananasr/puppet-bareos-debian",
+    "project_page": "https://github.com/Ananasr/puppet-bareos-debian",
+    "issues_url": "https://github.com/Ananasr/puppet-bareos-debian/issues",
     "dependencies": [
         {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0 < 5.0.0"},
         {"name":"puppetlabs-mysql","version_requirement":">= 1.0.0 < 5.0.0"},
